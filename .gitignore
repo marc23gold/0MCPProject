@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+config/local.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Dependency lock files (optional, comment out if you want to commit lock files)
+# package-lock.json
+# yarn.lock
+
+# MCP specific (add any sensitive MCP config files here)
+# mcp-config.local.json
